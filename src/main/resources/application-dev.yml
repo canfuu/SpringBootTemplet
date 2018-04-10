@@ -1,0 +1,10 @@
+
+server:
+  port: 8888
+  servlet:
+    path: /sbtest
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.canfuu: INFO
+  file: /var/CanfuuLogs/log.log
